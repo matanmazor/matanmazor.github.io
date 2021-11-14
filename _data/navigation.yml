@@ -1,0 +1,14 @@
+# main links links
+main:
+  - title: "Publications"
+    url: /publications/
+    
+   - title: "CV"
+    url: /cv/
+    
+  - title: "Online experiments"
+    url: /OnlineExperiments
+    
+  - title: "Posts"
+    url: /posts/
+    
