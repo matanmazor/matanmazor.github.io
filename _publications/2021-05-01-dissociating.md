@@ -1,5 +1,5 @@
 ---
-title: "Mistaking imagination for reality: Congruent mental imagery leads to more liberal perceptual detection"
+title: "Dissociating the neural correlates of subjective visibility from those of decision confidence"
 collection: publications
 permalink: /publication/2021-05-01-dissociating
 date: 2021-05-01
