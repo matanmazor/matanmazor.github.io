@@ -8,4 +8,4 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I am a Matan, and this page is under construction.
+
