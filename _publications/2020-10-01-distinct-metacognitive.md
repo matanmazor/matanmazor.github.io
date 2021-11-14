@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/2020-10-01-distinct-metacognitive
 date: 2020-10-01
 venue: 'eLife'
-link: 'https://doi.org/10.7554/eLife.53900'
+link: '/files/papers/mazor2020distinct.pdf'
 github: 'https://github.com/matanmazor/detectionVsDiscrimination_fMRI'
 data: 'https://openneuro.org/datasets/ds003669/versions/1.0.0'
 paperurl: 'https://doi.org/10.7554/eLife.53900'
