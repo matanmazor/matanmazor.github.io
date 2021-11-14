@@ -1,7 +1,7 @@
 ---
 title: "Dissociating the neural correlates of subjective visibility from those of decision confidence"
-collection: publications
-permalink: /publication/2021-05-01-dissociating
+collection: preprints
+permalink: /preprint/2021-05-01-dissociating
 date: 2021-05-01
 venue: 'BioRxiv'
 link: 'https://www.biorxiv.org/content/10.1101/2021.06.01.446101v1'
