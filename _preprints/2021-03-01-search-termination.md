@@ -6,6 +6,6 @@ date: 2021-03-01
 venue: 'under review'
 link: 'https://psyarxiv.com/kfzvx/'
 github: 'https://github.com/matanmazor/termination'
-paperurl: '/files/papers/mazor2021termination'
+paperurl: '/files/papers/mazor2021termination.pdf'
 citation: '<b>Mazor, M.</b>, & Fleming, S. (2021). Zero-shot search termination reveals a dissociation between implicit and explicit metacognitive knowledge. <i>PsyArXiv</i>'
 ---
