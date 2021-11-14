@@ -83,7 +83,7 @@ analytics:
 # Site Author
 author:
   name             : "Matan Mazor"
-  avatar           : "profile.png"
+  avatar           : 
   bio              : "PhD student"
   location         : "London, UK"
   employer         :
