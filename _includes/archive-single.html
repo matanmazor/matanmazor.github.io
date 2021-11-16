@@ -64,9 +64,13 @@
       {% endif %}
       {% if post.paperurl %}
         <a href="{{ post.paperurl }}"><i class="fas fa-fw fa-file-pdf zoom" aria-hidden="true"></i></a>
-		<a href="{{ post.paperurl }}"><i class="ai ai-psyarxiv zoom" aria-hidden="true"></i></a>
       {% endif %}
-      {% if post.code %}
+	  {% if post.psyarxiv %}
+		<a href="{{ post.psyarxiv }}"><i class="ai ai-psyarxiv zoom" aria-hidden="true"></i></a>
+      {% endif %}
+	  {% if post.biorxiv %}
+		<a href="{{ post.biorxiv }}"><i class="ai ai-biorxiv zoom" aria-hidden="true"></i></a>
+      {% endif %}      {% if post.code %}
         <a href="{{ post.code }}"><i class="fas fa-fw fa-code zoom" aria-hidden="true"></i></a>
       {% endif %}
       {% if post.github %}
