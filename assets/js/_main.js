@@ -2,7 +2,15 @@
    jQuery plugin settings and other scripts
    ========================================================================== */
 
+console.log('a')
+
 $(document).ready(function(){
+	
+	$('#show').click(function() {
+			   console.log('a')
+			   $('#description').toggle("slide");
+			 });
+			 
    // Sticky footer
   var bumpIt = function() {
       $("body").css("margin-bottom", $(".page__footer").outerHeight(true));
@@ -97,9 +105,4 @@ $(document).ready(function(){
 
 });
 
-$(document).ready(function(){
-             $('#show').click(function() {
-			   console.log('a')
-               $('#description').toggle("slide");
-             });
-         });
+
