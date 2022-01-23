@@ -70,7 +70,8 @@
       {% endif %}
 	  {% if post.biorxiv %}
 		<a href="{{ post.biorxiv }}"><i class="ai ai-biorxiv zoom" aria-hidden="true"></i></a>
-      {% endif %}      {% if post.code %}
+      {% endif %}      
+	  {% if post.code %}
         <a href="{{ post.code }}"><i class="fas fa-fw fa-code zoom" aria-hidden="true"></i></a>
       {% endif %}
       {% if post.github %}
@@ -98,7 +99,7 @@
         </a>
       </p>
     {% elsif post.excerpt and site.read_more != 'enabled' %}
-		<div id="show">Click here to show or hide the DIV element.</div>
+		<div id="show">Read more</div>
 		<p class="archive__item-excerpt" style="display: none;" itemprop="description">{{ post.excerpt | markdownify }}</p>
     {% elsif post.excerpt and site.read_more == 'enabled' %}
       <p class="archive__item-excerpt" itemprop="description">
