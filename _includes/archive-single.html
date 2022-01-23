@@ -102,8 +102,6 @@
         </a>
       </p>
     {% elsif post.excerpt and site.read_more != 'enabled' %}
-		<div id="show">Read more</div>
-		<div class="menu" style="display: none;">
 		<p class="archive__item-excerpt" style="display: none;" itemprop="description">{{ post.excerpt | markdownify }}</p>
 		</div>
     {% elsif post.excerpt and site.read_more == 'enabled' %}
