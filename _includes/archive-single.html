@@ -59,7 +59,9 @@
       {% endif %}
 	  {% if post.summary_paragraph %}
         <i id="show" class="fas fa-fw fa-angle-down zoom" aria-hidden="true"></i>
-		<p class="archive__item-excerpt" style="display: none;" itemprop="description">{{ post.summary_paragraph | markdownify }}</p>
+		<div id="description"  style="display: none;">
+		<p class="archive__item-excerpt" itemprop="description">{{ post.summary_paragraph | markdownify }}</p>
+		</div>
       {% endif %}
       <br>
 	  
