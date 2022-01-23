@@ -60,12 +60,9 @@
       {% endif %}
 	  {% if post.summary_paragraph %}
         <i id="show" class="fas fa-fw fa-angle-down zoom" aria-hidden="true"></i>
-		<div class="menu" style="display: none;">
-		<p class="archive__item-excerpt" itemprop="description">{{ post.summary_paragraph | markdownify }}</p>
-		</div>
+		<p class="archive__item-excerpt" style="display: none;" itemprop="description">{{ post.summary_paragraph | markdownify }}</p>
       {% endif %}
       <br>
-	  
 	  
       {% if post.link %}
         <a href="{{ post.link }}"><i class="fas fa-fw fa-link zoom" aria-hidden="true"></i></a>

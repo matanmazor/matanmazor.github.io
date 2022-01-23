@@ -99,6 +99,6 @@ $(document).ready(function(){
 
 $(document).ready(function(){
              $('#show').click(function() {
-               $('.menu').toggle("slide");
+               $('.archive__item-excerpt').toggle("slide");
              });
          });
