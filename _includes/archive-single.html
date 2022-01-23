@@ -82,6 +82,9 @@
 	  {% if post.osf %}
         <a href="{{ post.osf }}"><i class="ai ai-osf zoom" aria-hidden="true"></i></a>
       {% endif %}
+	  {% if post.excerpt %}
+        <div id="show">Click here to show or hide the DIV element.</div>
+      {% endif %}
       </p>
     {% elsif post.collection == 'posts' and post.date %}
       <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
