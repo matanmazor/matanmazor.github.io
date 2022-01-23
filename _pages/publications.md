@@ -15,16 +15,29 @@ author_profile: true
   {% include archive-single.html %}
 {% endfor %}
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-<script>
-    console.log('v2')
-     $(document).ready(function(){
-         $('#show').click(function() {
+<head>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script>
+	  $(document).ready(function(){
              console.log('a')
-           $('#description').toggle("slide");
          });
-     });
-</script>
+         $(document).ready(function(){
+             $('#show').click(function() {
+               $('#menu').toggle("slide");
+             });
+         });
+      </script>
+   </head>
+   <body>
+      <div id="show">Click here to show or hide the DIV element.</div>
+      <div id="menu" style="display: none;">
+         <ol>
+            <li>JavaScript</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JQuery</li>
+         </ol>
+      </div>
+   </body>
 
 <sup>*</sup> Equal authorship
