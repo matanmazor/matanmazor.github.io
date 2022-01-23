@@ -58,10 +58,11 @@
         {{ post.citation }}
       {% endif %}
 	  {% if post.summary_paragraph %}
-        <i id="show" class="fas fa-fw fa-angle-down zoom" aria-hidden="true"></i>
-		<div id="description"  style="display: none;">
-		<p class="archive__item-excerpt" itemprop="description">{{ post.summary_paragraph | markdownify }}</p>
-		</div>
+	  <label for="{{ post.id }}">Click me</label>
+	  <input id="{{ post.id }}" type="checkbox">
+	  <div class="description">
+	  <p class="archive__item-excerpt" itemprop="description">{{ post.summary_paragraph | markdownify }}</p>
+	  </div>
       {% endif %}
 	  
 	  <br>
