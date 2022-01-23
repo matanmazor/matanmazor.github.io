@@ -14,13 +14,11 @@ input {
   -webkit-transition: height .3s ease;
   height: 0;
   overflow: hidden;
-  width: 200px;
-  background: red;
   margin-top: 10px;
 }
 
 input:checked + .description {
-  height: 100px;
+  height: auto;
 }
 </style>
 
