@@ -15,8 +15,16 @@ author_profile: true
   {% include archive-single.html %}
 {% endfor %}
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 <script>
     console.log('aaa')
+     $(document).ready(function(){
+         $('#show').click(function() {
+             console.log('a')
+           $('#description').toggle("slide");
+         });
+     });
 </script>
 
 <sup>*</sup> Equal authorship
