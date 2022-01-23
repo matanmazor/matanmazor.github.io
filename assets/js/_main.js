@@ -5,9 +5,9 @@
 $(document).ready(function(){
 	
 	$('#show').click(function() {
-			   console.log('a')
-			   $('#description').toggle("slide");
-			 });
+	   console.log('a')
+	   $('#description').toggle("slide");
+	});
 			 
    // Sticky footer
   var bumpIt = function() {
