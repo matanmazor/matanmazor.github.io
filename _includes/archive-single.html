@@ -58,6 +58,9 @@
       {% if post.citation %}
         {{ post.citation }}
       {% endif %}
+	  {% if post.summary_paragraph %}
+        <i id="show" class="fas fa-fw fa-angle-down zoom" aria-hidden="true"></i>
+      {% endif %}
       <br>
       {% if post.link %}
         <a href="{{ post.link }}"><i class="fas fa-fw fa-link zoom" aria-hidden="true"></i></a>
@@ -82,9 +85,6 @@
       {% endif %}
 	  {% if post.osf %}
         <a href="{{ post.osf }}"><i class="ai ai-osf zoom" aria-hidden="true"></i></a>
-      {% endif %}
-	  {% if post.summary_paragraph %}
-        <i id="show" class="fas fa-fw fa-angle-down zoom" aria-hidden="true"></i>
       {% endif %}
       </p>
     {% elsif post.collection == 'posts' and post.date %}
