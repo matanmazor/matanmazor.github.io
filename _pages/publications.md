@@ -12,13 +12,13 @@ input {
 
 .description {
   -webkit-transition: height .3s ease;
-  height: 0;
+  max-height: 0;
   overflow: hidden;
   margin-top: 10px;
 }
 
 input:checked + .description {
-  height: auto;
+  max-height: 1000px;
 }
 </style>
 
