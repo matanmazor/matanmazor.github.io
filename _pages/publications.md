@@ -18,6 +18,7 @@ author_profile: true
 <head>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
       <script>
+      console.log('v3')
 	  $(document).ready(function(){
              console.log('a')
          });
