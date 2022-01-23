@@ -5,6 +5,24 @@ permalink: /publications/
 author_profile: true
 ---
 
+<style> input {
+  display: none;
+}
+
+.test {
+  -webkit-transition: height .3s ease;
+  height: 0;
+  overflow: hidden;
+  width: 200px;
+  background: red;
+  margin-top: 10px;
+}
+
+input:checked + .test {
+  height: 100px;
+}
+</style>
+
 {% if author.googlescholar %}
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
