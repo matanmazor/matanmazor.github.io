@@ -15,4 +15,14 @@ author_profile: true
   {% include archive-single.html %}
 {% endfor %}
 
+<script>
+    console.log('aaa')
+     $(document).ready(function(){
+         $('#show').click(function() {
+             console.log('a')
+           $('#description').toggle("slide");
+         });
+     });
+</script>
+
 <sup>*</sup> Equal authorship

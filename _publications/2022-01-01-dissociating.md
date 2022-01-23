@@ -13,11 +13,3 @@ summary_paragraph: A key goal of consciousness science is identifying neural sig
 
 citation: '<b>Mazor, M.</b>*, Dijkstra, N.*, & Fleming, S. M. (in press). Dissociating the neural correlates of subjective visibility from those of decision confidence. <i>Journal of Neuroscience</i>. '
 ---
-<script>
-         $(document).ready(function(){
-             $('#show').click(function() {
-                 console.log('a')
-               $('#description').toggle("slide");
-             });
-         });
-</script>
