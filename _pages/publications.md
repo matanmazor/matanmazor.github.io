@@ -18,7 +18,7 @@ author_profile: true
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 <script>
-    console.log('aaa')
+    console.log('v2')
      $(document).ready(function(){
          $('#show').click(function() {
              console.log('a')
