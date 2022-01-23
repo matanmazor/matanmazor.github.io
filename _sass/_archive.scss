@@ -59,13 +59,11 @@
 }
 
 .archive__item-excerpt {
-  display: none;
   margin-top: 0;
   font-size: $type-size-6;
 
   & + p {
-    text-indent: 100;
-    display: none;
+    text-indent: 0;
   }
 }
 
