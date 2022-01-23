@@ -2,8 +2,6 @@
    jQuery plugin settings and other scripts
    ========================================================================== */
 
-console.log('a')
-
 $(document).ready(function(){
 	
 	$('#show').click(function() {
