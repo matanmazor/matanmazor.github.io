@@ -5,11 +5,12 @@ permalink: /publications/
 author_profile: true
 ---
 
-<style> input {
+<style> 
+input {
   display: none;
 }
 
-.test {
+.description {
   -webkit-transition: height .3s ease;
   height: 0;
   overflow: hidden;
@@ -18,7 +19,7 @@ author_profile: true
   margin-top: 10px;
 }
 
-input:checked + .test {
+input:checked + .description {
   height: 100px;
 }
 </style>
