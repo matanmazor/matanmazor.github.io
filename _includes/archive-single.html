@@ -54,16 +54,18 @@
       {% endif %}
       
       <!-- citation and icon code -->
+	  <p>
       {% if post.citation %}
         {{ post.citation }}
       {% endif %}
 	  {% if post.summary_paragraph %}
 	  <label for="{{ post.id }}"><i class="fas fa-fw fa-angle-down zoom" aria-hidden="true"></i></label>
-	  <input id="{{ post.id }}" type="checkbox">
+	  <input id="{{ post.id }}" type="checkbox"> </p>
 	  <div class="description">
 	  <p class="archive__item-excerpt" itemprop="description">{{ post.summary_paragraph | markdownify }}</p>
 	  </div>
-		
+	  {% else %}
+	  </p>
       {% endif %}
 	  
 	  <br>
