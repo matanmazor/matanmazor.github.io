@@ -59,7 +59,7 @@
         {{ post.citation }}
       {% endif %}
 	  {% if post.summary_paragraph %}
-	  <i id ="show" class="fas fa-fw fa-angle-down zoom" aria-hidden="true" onlick="()=>{console.log('a')}"></i>
+	  <i id ="show" class="fas fa-fw fa-angle-down zoom" aria-hidden="true" onlick="console.log('a')"></i>
 	  <div class="description" style="display: none;">
 	  <p class="archive__item-excerpt" itemprop="description">{{ post.summary_paragraph | markdownify }}</p>
 	  </div>
