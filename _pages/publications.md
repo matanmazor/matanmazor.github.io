@@ -8,6 +8,7 @@ author_profile: true
 <style> 
 input {
   display: none;
+  float:left;
 }
 
 .description {
