@@ -59,10 +59,8 @@
         {{ post.citation }}
       {% endif %}
 	  {% if post.summary_paragraph %}
-	  <i class="fas fa-fw fa-angle-down zoom" aria-hidden="true" onclick="console.log('b');$('.description').toggle('slide')"></i>
-	  <div class="description" style="display: none;">
+	  <i class="fas fa-fw fa-angle-down zoom" aria-hidden="true" onclick="console.log('b');$('.archive__item-excerpt').toggle('slide')"></i>
 	  <p class="archive__item-excerpt" itemprop="description">{{ post.summary_paragraph | markdownify }}</p>
-	  </div>
 		
       {% endif %}
 	  
