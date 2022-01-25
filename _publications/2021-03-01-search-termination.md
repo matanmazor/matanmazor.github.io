@@ -8,7 +8,7 @@ psyarxiv: 'https://psyarxiv.com/kfzvx/'
 github: 'https://github.com/matanmazor/termination'
 paperurl: '/files/papers/mazor2021termination.pdf'
 osf: 'https://osf.io/fyjcp/'
-summary_paragraph: In order to infer that a target item is missing from a display, subjects must know that they would have detected it if it was present. This form of counterfactual reasoning critically relies on metacognitive knowledge about spatial attention and visual search behaviour. Previous work on visual search established that this knowledge is constructed and expanded based on task experience. Here we show that some metacognitive knowledge is also available to participants in the first few trials of the task, and that this knowledge can be used to guide decisions about search termination even if it is not available for explicit report.
+summary_paragraph: Some searches are really easy - the thing you are looking for just *pops out* to your attention. Interestingly, the same kind of searches also trigger an immediate perception of the absence of a target when it is not there. In this project we investigated this phenomenon of *absence pop-out* and found that it is independent of task experience and explicit metacognitive knowledge about search efficiency. 
 id: mazor2022termination
 citation: '<b>Mazor, M.</b>, & Fleming, S.M. (in press). Efficient search termination without task experience. <i>Journal of Experimental Psychology: General</i>'
 
