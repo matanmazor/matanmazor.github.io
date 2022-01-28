@@ -43,7 +43,15 @@
     {% if post.collection == 'teaching' %}
       <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
     {% elsif post.collection=='preprints' or post.collection=='publications'%}
-      {% if post.abstract %}
+      
+      
+      <!-- citation and icon code -->
+	  
+      {% if post.citation %}
+        {{ post.citation }}
+      {% endif %}
+	  
+	  {% if post.abstract %}
         <details><summary>Abstract</summary>
         <blockquote>
         <p>
@@ -52,12 +60,7 @@
         </blockquote>
         </details>
       {% endif %}
-      
-      <!-- citation and icon code -->
 	  
-      {% if post.citation %}
-        {{ post.citation }}
-      {% endif %}
 	  {% if post.summary_paragraph %}
 	  <i id ="show" class="fas fa-fw fa-angle-down zoom" aria-hidden="true" onclick="$(this).parent().find('#description').toggle(400)"></i>
 	  <div id="description" style="display: none;">
