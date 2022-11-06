@@ -75,7 +75,7 @@ social:
 analytics:
   provider               : false #  (default), "google", "google-universal", "custom", "goatcounter"
   google:
-    tracking_id          : 
+    tracking_id          :
   goatcounter:
     code		 : matanmazor
 
@@ -100,13 +100,14 @@ author:
   facebook         :
   foursquare       :
   github           : "matanmazor"
-  gitlab           : 
+  mastodone        : "c.im/@matan"
+  gitlab           :
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : 
+  linkedin         :
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
