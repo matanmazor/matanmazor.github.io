@@ -1,8 +1,8 @@
 ---
 title: "Prospective search time estimates reveal the strengths and limits of internal models of visual search"
-collection: preprints
-permalink: /preprint/2021-06-01-internal-models
-date: 2022-06-01
+collection: publications
+permalink: /publications/2022-10-01-prospective
+date: 2022-10-01
 venue: 'Journal of Experimental Psychology: General'
 github: 'https://github.com/matanmazor/MetaVisualSearch'
 paperurl: '/files/papers/mazor2022prospective.pdf'

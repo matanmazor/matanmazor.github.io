@@ -1,9 +1,9 @@
 ---
 title: "Re-evaluating frontopolar and temporoparietal contributions to detection and discrimination confidence"
-collection: preprints
-permalink: /preprint/2022-09-01-re-evaluating
-date: 2022-09-01
-venue: 'under review'
+collection: publications
+permalink: /publications/2023-03-01-re-evaluating
+date: 2023-03-01
+venue: 'Royal Society Open Science'
 github: 'https://github.com/matanmazor/unequalVarianceDiscrimination'
 paperurl: '/files/papers/mazor2022reevaluating.pdf'
 data: 'https://openneuro.org/datasets/ds004081/versions/1.0.0'
