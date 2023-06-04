@@ -12,10 +12,10 @@ $(".header").click(function () {
             return $content.is(":visible") ? "Collapse" : "Expand";
         });
         //toggle the visibility of the break line
-        if($content.is(":visible")) {
-            $header.nextUntil('.break-line').last().next().css('display', 'none');
-        } else {
-            $header.nextUntil('.break-line').last().next().css('display', 'block');
-        }
+        // if($content.is(":visible")) {
+        //     $header.nextUntil('.break-line').last().next().css('display', 'none');
+        // } else {
+        //     $header.nextUntil('.break-line').last().next().css('display', 'block');
+        // }
     });
 });
