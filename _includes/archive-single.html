@@ -60,7 +60,7 @@
       {% endif %}
 	  {% if post.summary_paragraph %}
 	  <i id ="show" class="fas fa-fw fa-angle-down zoom" aria-hidden="true" onclick="$(this).parent().find('#description').slideToggle(700)"></i>
-	  <div id="description" style="display: none; margin-top: 0; margin-bottom: 0;">
+	  <div id="description" style="display: none">
 	  <p class="archive__item-excerpt" itemprop="description">{{ post.summary_paragraph | markdownify }}</p>
 	  </div>
 
