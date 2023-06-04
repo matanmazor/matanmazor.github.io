@@ -35,7 +35,7 @@
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </h2>
-    
+
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
@@ -52,20 +52,20 @@
         </blockquote>
         </details>
       {% endif %}
-      
+
       <!-- citation and icon code -->
-	  
+
       {% if post.citation %}
         {{ post.citation }}
       {% endif %}
 	  {% if post.summary_paragraph %}
 	  <i id ="show" class="fas fa-fw fa-angle-down zoom" aria-hidden="true" onclick="$(this).parent().find('#description').slideToggle(700)"></i>
-	  <div id="description" style="display: none;">
+	  <div id="description" style="display: none; margin-top: 0; margin-bottom: 0;">
 	  <p class="archive__item-excerpt" itemprop="description">{{ post.summary_paragraph | markdownify }}</p>
 	  </div>
-		
+
       {% endif %}
-	  
+
 	  <br>
       {% if post.link %}
         <a href="{{ post.link }}"><i class="fas fa-fw fa-link zoom" aria-hidden="true"></i></a>
@@ -78,7 +78,7 @@
       {% endif %}
 	  {% if post.biorxiv %}
 		<a href="{{ post.biorxiv }}"><i class="ai ai-biorxiv zoom" aria-hidden="true"></i></a>
-      {% endif %}      
+      {% endif %}
 	  {% if post.code %}
         <a href="{{ post.code }}"><i class="fas fa-fw fa-code zoom" aria-hidden="true"></i></a>
       {% endif %}
@@ -95,7 +95,7 @@
     {% elsif post.collection == 'posts' and post.date %}
       <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
     {% endif %}
-    
+
     {% if post.excerpt and post.collection == 'research' and site.read_more != 'enabled' %}
       <p class="archive__item-excerpt" itemprop="description">
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">
@@ -117,6 +117,6 @@
         </p>
       </p>
     {% endif %}
-    
+
   </article>
 </div>
