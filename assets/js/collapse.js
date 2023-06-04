@@ -3,8 +3,6 @@ $(".header").click(function () {
     $header = $(this);
     //getting the next element
     $content = $header.next();
-    //find the break line that corresponds to this header
-    $breakLine = $header.parent().siblings('.break-line');
     //open up the content needed - toggle the slide- if visible, slide up, if not slidedown.
     $content.slideToggle(500, function () {
         //execute this after slideToggle is done
@@ -15,9 +13,9 @@ $(".header").click(function () {
         });
         //toggle the visibility of the break line
         if($content.is(":visible")) {
-            $breakLine.css('display', 'none');
+            $header.nextUntil('.break-line').last().next().css('display', 'none');
         } else {
-            $breakLine.css('display', 'block');
+            $header.nextUntil('.break-line').last().next().css('display', 'block');
         }
     });
 });
