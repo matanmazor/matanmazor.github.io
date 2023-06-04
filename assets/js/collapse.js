@@ -1,3 +1,4 @@
+
 $(".header").click(function () {
 
     $header = $(this);
@@ -12,5 +13,6 @@ $(".header").click(function () {
             return $content.is(":visible") ? "Collapse" : "Expand";
         });
     });
-
+    //toggle the visibility of the break line
+    $("#break-line").toggle();
 });
