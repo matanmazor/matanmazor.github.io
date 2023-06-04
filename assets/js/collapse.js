@@ -14,6 +14,10 @@ $(".header").click(function () {
             return $content.is(":visible") ? "Collapse" : "Expand";
         });
         //toggle the visibility of the break line
-        $breakLine.toggle();
+        if($content.is(":visible")) {
+            $breakLine.css('display', 'none');
+        } else {
+            $breakLine.css('display', 'block');
+        }
     });
 });
