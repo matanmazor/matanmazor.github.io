@@ -58,6 +58,8 @@ yandex_site_verification :
 # Social Sharing
 twitter:
   username               :
+bsky:
+  username               : matanmazor
 facebook:
   username               :
   app_id                 :
@@ -100,7 +102,7 @@ author:
   facebook         :
   foursquare       :
   github           : "matanmazor"
-  mastodon        : "c.im/@matan"
+  mastodon         : "c.im/@matan"
   gitlab           :
   google_plus      :
   keybase          :
@@ -114,6 +116,7 @@ author:
   steam            :
   tumblr           :
   twitter          :
+  bsky             : "matanmazor"
   vine             :
   weibo            :
   xing             :
