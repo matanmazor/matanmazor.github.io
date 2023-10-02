@@ -57,7 +57,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : mazormatan
+  username               :
 facebook:
   username               :
   app_id                 :
@@ -113,7 +113,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "mazormatan"
+  twitter          :
   vine             :
   weibo            :
   xing             :
