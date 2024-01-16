@@ -7,5 +7,5 @@ venue: 'PsyArXiv'
 psyarxiv: 'https://osf.io/preprints/psyarxiv/rmz7n'
 github: 'https://github.com/noamsarna/ocd_visual_search'
 paperurl: '/files/papers/sarna2023obsessive.pdf'
-citation: 'Sarna, N., Mazor, M., & Dar, R. (2023, October 20). Obsessive Compulsive visual search: a reexamination of presence-absence asymmetries.'
+citation: 'Sarna, N., <b>Mazor, M.</b>, & Dar, R. (2023, October 20). Obsessive Compulsive visual search: a reexamination of presence-absence asymmetries.'
 ---
