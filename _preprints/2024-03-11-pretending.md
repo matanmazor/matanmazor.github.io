@@ -8,5 +8,6 @@ psyarxiv: 'https://osf.io/preprints/psyarxiv/pgxrz'
 github: 'https://github.com/matanmazor/ignorance'
 paperurl: '/files/papers/mazor2024pretending.pdf'
 citation: '<b>Mazor, M.</b>, Firestone, C., & Phillips, I. (2024). Pretending not to know reveals a powerful capacity for self-simulation.'
-summary_paragraph: In order to pretend that I don't know something, I need to mentally simulate what I would do if my knowledge were different than what it is. That is not a simple mental exercise: it relies on knowledge that I have about how I behave 
+summary_paragraph: >
+  In order to pretend that I don't know something, I need to mentally simulate what I would do if my knowledge were different than what it is. To do this, I rely on knowledge that I have about my own mind: metacognitive knowledge. Here, together with [Chaz] and [Ian], we quantified people's metacognition by measuring their ability to pretend they don't know something. Specifically, we had them playing games, like Hangman ("reveal the hidden word with as few letter guesses as possible"). We then compared their behaviour in real games against their behaviour in pretend games, in which we told them what the word was but asked them to behave as they would if they didn't know it. We found a remarkable capacity for self-simulation, but also identified important limitations: pretenders had a tendency to over-act, and were sub-optimal in their taking-in of new information.
 ---
