@@ -1,0 +1,10 @@
+---
+title: "Inference about Absence as a Window into the Mental Self-Model"
+collection: publications
+permalink: /publications/2025-03-21-inference-about-absence
+date: 2025-03-21
+venue: 'Open Mind'
+psyarxiv: 'https://psyarxiv.com/zgf6s/'
+paperurl: '/files/papers/mazor2021window.pdf'
+citation: '<b>Mazor, M.</b> (in press). Inference about absence as a window into the mental self-model. <i>Open Mind</i>''
+---
