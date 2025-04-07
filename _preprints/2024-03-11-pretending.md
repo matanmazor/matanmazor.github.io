@@ -1,5 +1,5 @@
 ---
-title: "Pretending not to know reveals a powerful capacity for self-simulation"
+title: "Pretending not to know reveals a capacity for model-based self-simulation"
 collection: preprints
 permalink: /preprint/2024-03-11-pretending
 date: 2024-03-11
