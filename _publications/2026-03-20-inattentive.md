@@ -5,6 +5,7 @@ permalink: /publications/2026-03-20-inattentive
 date: 2026-03-20
 venue: 'PsyArXiv'
 psyarxiv: 'https://osf.io/preprints/psyarxiv/fzwu8_v3'
+link: 'https://doi.org/10.1073/pnas.2520832123'
 github: 'https://github.com/noamsarna/BIRDAM'
 paperurl: '/files/papers/sarna2026inattentive.pdf'
 citation: 'Sarna, N., Dar, R.,  & <b>Mazor, M.</b> (2026). Biased and Inattentive Responding Contribute to Apparent Metacognitive Biases in Mental Health. <i>Proceedings of the National Academy of Sciences</i>'
