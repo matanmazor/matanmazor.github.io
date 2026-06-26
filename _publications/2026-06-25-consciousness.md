@@ -4,7 +4,7 @@ collection: publications
 permalink: /publications/2026-06-25-consciousness
 date: 2026-06-25
 venue: 'Behavioral and Brain Sciences'
-paperurl: '/files/papers/mazor2025consciousness.pdf'
+paperurl: '/files/papers/mazor2026consciousness.pdf'
 psyarxiv: 'https://osf.io/preprints/psyarxiv/hvsmj_v1'
 link: 'https://doi.org/10.1017/S0140525X2510304X'
 citation: '<b>Mazor, M.</b> (2026). Consciousness science as a marketplace of rationalizations. <i>Behavioral and Brain Sciences</i>'
